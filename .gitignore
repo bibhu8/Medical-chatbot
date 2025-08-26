@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+medical_chatbot_env/
+.env
+.env.*
+# Byte-compiled / distribution
+*.egg-info/
+dist/
+build/
+# VSCode / IDE
+.vscode/
+.idea/
+.DS_Store
+# FAISS / vector DB
+vectorstore/
+db_faiss/
+# Streamlit cache / logs
+.streamlit/
+*.log
+# other
+*.sqlite3
